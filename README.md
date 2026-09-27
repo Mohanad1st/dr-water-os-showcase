@@ -4,7 +4,7 @@
 
 <p align="center" dir="rtl" lang="ar">نظام تشغيل يومي لمحطات معالجة المياه، بالعربية والإنجليزية</p>
 
-> **This is a showcase, not the code.** The source is private because the system handles real operations for real people. Nothing here is needed to run it, and nothing here reveals how it is secured. A live walkthrough is available on request.
+> **This is a showcase, not the code.** The source is private because it runs daily operations for real companies. This page shows what it does and how it was built, not the code itself. A live walkthrough is available on request.
 
 ## The problem
 
@@ -25,8 +25,6 @@ Water treatment plants still run on paper logbooks and scattered spreadsheets. W
 
 <p align="center"><img src="assets/screen-2.webp" alt="Portfolio view across sites (demo data)" width="92%"><br><sub>Portfolio view across sites (demo data)</sub></p>
 
-<p align="center"><img src="assets/screen-3.webp" alt="The Dr. Water assistant (demo)" width="92%"><br><sub>The Dr. Water assistant (demo)</sub></p>
-
 <sub>All screens show demo data or public pages only.</sub>
 
 ## Built with
@@ -44,7 +42,7 @@ React · Tailwind CSS · Python (FastAPI) · document database · deployed on ma
 ## What it deliberately doesn't do
 
 - It is not a control system. It never touches plant equipment; it records and organises what people observe.
-- It does not let AI act on its own. The assistant answers questions; people make the decisions.
+- It does not let AI act on its own. Its optional assistant is off by default and only answers questions; people make the decisions.
 
 ## More from Mohandes AI
 
