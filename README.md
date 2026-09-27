@@ -1,10 +1,12 @@
-<p align="center"><img src="assets/banner.svg" alt="Dr. Water OS — Daily operations for water treatment plants, in one bilingual system" width="100%"></p>
+<p align="center"><img src="assets/banner.svg" alt="Dr. Water OS" width="100%"></p>
 
-<p align="center"><b>Status:</b> Paid pilot with water treatment companies &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a> &nbsp;·&nbsp; <b>Source:</b> private</p>
+<p align="center"><b>Daily operations for water treatment plants, in one bilingual system</b></p>
 
-<p align="center" dir="rtl" lang="ar">نظام تشغيل يومي لمحطات معالجة المياه، بالعربية والإنجليزية</p>
+<p align="center" dir="rtl" lang="ar">نظام واحد لإدارة التشغيل اليومي لمحطات معالجة المياه، بالعربية والإنجليزية</p>
 
-> **This is a showcase, not the code.** The source is private because it runs daily operations for real companies. This page shows what it does and how it was built, not the code itself. A live walkthrough is available on request.
+<p align="center"><b>Status:</b> Paid pilot with water treatment companies &nbsp;·&nbsp; <b>Built by</b> <a href="https://github.com/Mohanad1st">Mohannad Hesham</a></p>
+
+> Case study only: the source is private because it runs daily operations for real companies. Walkthrough on request.
 
 ## The problem
 
@@ -21,11 +23,22 @@ Water treatment plants still run on paper logbooks and scattered spreadsheets. W
 
 ## See it
 
-<p align="center"><img src="assets/screen-1.webp" alt="Plant dashboard (demo company, Arabic interface)" width="92%"><br><sub>Plant dashboard (demo company, Arabic interface)</sub></p>
+How the work flows:
 
-<p align="center"><img src="assets/screen-2.webp" alt="Portfolio view across sites (demo data)" width="92%"><br><sub>Portfolio view across sites (demo data)</sub></p>
+```mermaid
+flowchart TD
+  accTitle: A day of plant operations in Dr. Water OS
+  accDescr: Operators log readings, anything abnormal becomes an incident that is triaged and closed, readings and incidents roll up into monthly reports and cost per cubic metre, and each company sees only its own plants.
+  A[Operator logs readings] --> B{Anything abnormal?}
+  B -- yes --> C[Incident raised]
+  C --> D[Triaged and closed]
+  B -- no --> E[Daily log saved]
+  D --> F[Monthly report]
+  E --> F
+  F --> G[Cost per m3]
+```
 
-<sub>All screens show demo data or public pages only.</sub>
+<sub>Screens are being re-shot with fully Arabic demo data and will be added here.</sub>
 
 ## Built with
 
